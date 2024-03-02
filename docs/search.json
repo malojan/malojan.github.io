@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Malo Jan",
     "section": "",
-    "text": "Hey"
+    "text": "I am Malo Jan, a Phd Student in political science at Sciences Po (CEE, CNRS). I work on the politicisation of climate change by political parties in Europe. More broadly I am interested in party politics, legislative behavior and climate politics. I am also very interested in computational social sciences."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Introduction to political science\nSemester: Spring 2023\nUniversity: Sciences Po, Poitiers’Campus\n\n\nComparative Politics\nSemester: Fall 2023\nUniversity: Sciences Po, Paris’Campus\n\n\nIntroduction to R\nSemester: Fall 2023\nUniversity: Sciences Po, Paris’Campus"
   },
   {
     "objectID": "teachin1.html",
@@ -21,17 +28,10 @@
     "text": "&lt;select id=\"teaching-experience\" onchange=\"displayExperience()\"&gt;\n  &lt;option value=\"experience1\"&gt;Teaching Experience 1&lt;/option&gt;\n  &lt;option value=\"experience2\"&gt;Teaching Experience 2&lt;/option&gt;\n  &lt;option value=\"experience3\"&gt;Teaching Experience 3&lt;/option&gt;\n&lt;/select&gt;\n&lt;div id=\"experience1\" style=\"display:none;\"&gt;\n  &lt;h2&gt;Teaching Experience 1&lt;/h2&gt;\n  &lt;!-- Add details about your teaching experience here --&gt;\n&lt;/div&gt;\n&lt;div id=\"experience2\" style=\"display:none;\"&gt;\n  &lt;h2&gt;Teaching Experience 2&lt;/h2&gt;\n  &lt;!-- Add details about your teaching experience here --&gt;\n&lt;/div&gt;\n&lt;div id=\"experience3\" style=\"display:none;\"&gt;\n  &lt;h2&gt;Teaching Experience 3&lt;/h2&gt;\n  &lt;!-- Add details about your teaching experience here --&gt;\n&lt;/div&gt;\n    \n&lt;script&gt;\nfunction displayExperience() {\n  var selectedExperience = document.getElementById(\"teaching-experience\").value;\n  var experiences = [\"experience1\", \"experience2\", \"experience3\"];\n\n  experiences.forEach(function (experience) {\n    var div = document.getElementById(experience);\n    if (experience === selectedExperience) {\n      div.style.display = \"block\";\n    } else {\n      div.style.display = \"none\";\n    }\n  });\n}\n&lt;/script&gt;"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Introduction to political science\nSemester: Spring 2023\nUniversity: Sciences Po, Poitiers’Campus\n\n\nComparative Politics\nSemester: Fall 2023\nUniversity: Sciences Po, Paris’Campus\n\n\nIntroduction to R\nSemester: Fall 2023\nUniversity: Sciences Po, Paris’Campus"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Malo Jan",
-    "section": "",
-    "text": "I am Malo Jan, a Phd Student in political science at Sciences Po (CEE, CNRS). I work on the politicisation of climate change by political parties in Europe. More broadly I am interested in party politics, legislative behavior and climate politics. I am also very interested in computational social sciences."
+    "text": "Hey"
   }
 ]

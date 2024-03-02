@@ -5,10 +5,6 @@ project:
 
 website:
   title: "Malo Jan"
-  description: "Website of Malo Jan"
-  site-url: "1"
-  repo-url: '2'
-  open-graph: true
   navbar:
     right:
       - href: index.qmd
