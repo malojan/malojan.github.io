@@ -9,20 +9,30 @@ website:
   site-url: "1"
   repo-url: '2'
   open-graph: true
-  twitter-card: 
-    creator: "@malojn"
-    site: "@linogaliana"
-    card-style: "summary_large_image"
   navbar:
-    background: "darkgreen"
-    foreground: light
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: about.qmd
+        text: About
       - href: research.qmd
+        text: Research
+      - href: data.qmd
+        text: Data
       - href: teaching.qmd
+        text: Teaching
+      - href: CV_Malo_Jan.pdf
+        text: CV
 
+page-footer:
+    background: dark # or dark
+    left:
+      - "Copyright 2024, Malo Jan"
+    right:
+      - icon: github
+        href: https://github.com/malojan
+      - icon: twitter
+        href: https://twitter.com/malo_jn
 
 format:
   html:

@@ -3,17 +3,18 @@ title: "Malo Jan"
 image: Malo_JAN_photo.jpg
 toc: false
 about: 
-  template: jolla
+  template: trestles # see other templates at https://quarto.org/docs/websites/website-about.html#templates
   image-shape: round
   image-width: 20em
   links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/samanthacsik/
-    - text: Twitter
+    - icon: twitter
+      text: Twitter
       href: https://twitter.com/malo_jn
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/malojan
-    - text: Email
+    - icon: envelope
+      text: Email
       href: malo.jan@sciencespo.fr
 ---
         
