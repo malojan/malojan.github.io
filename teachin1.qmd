@@ -1,0 +1,40 @@
+# Teaching Experience
+
+## Select an experience:
+
+```{html}
+<select id="teaching-experience" onchange="displayExperience()">
+  <option value="experience1">Teaching Experience 1</option>
+  <option value="experience2">Teaching Experience 2</option>
+  <option value="experience3">Teaching Experience 3</option>
+</select>
+<div id="experience1" style="display:none;">
+  <h2>Teaching Experience 1</h2>
+  <!-- Add details about your teaching experience here -->
+</div>
+<div id="experience2" style="display:none;">
+  <h2>Teaching Experience 2</h2>
+  <!-- Add details about your teaching experience here -->
+</div>
+<div id="experience3" style="display:none;">
+  <h2>Teaching Experience 3</h2>
+  <!-- Add details about your teaching experience here -->
+</div>
+    
+<script>
+function displayExperience() {
+  var selectedExperience = document.getElementById("teaching-experience").value;
+  var experiences = ["experience1", "experience2", "experience3"];
+
+  experiences.forEach(function (experience) {
+    var div = document.getElementById(experience);
+    if (experience === selectedExperience) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+}
+</script>
+```
+

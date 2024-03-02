@@ -1,0 +1,23 @@
+
+---
+title: "Teaching"
+---
+
+
+#### Introduction to political science
+
+Semester: Spring 2023
+
+University: Sciences Po, Poitiers'Campus
+
+#### Comparative Politics
+
+Semester: Fall 2023
+
+University: Sciences Po, Paris'Campus
+
+#### [Introduction to R](https://malo-jn.quarto.pub/introduction-to-r/)
+
+Semester: Fall 2023
+
+University: Sciences Po, Paris'Campus

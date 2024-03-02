@@ -1,0 +1,11 @@
+{
+  "hash": "406c4009e0773b1016884e142b456460",
+  "result": {
+    "markdown": "---\ntitle: Teaching Experience\n---\n\n\n\n## Select an experience:\n\n\n```{html}\n<select id=\"teaching-experience\" onchange=\"displayExperience()\">\n  <option value=\"experience1\">Teaching Experience 1</option>\n  <option value=\"experience2\">Teaching Experience 2</option>\n  <option value=\"experience3\">Teaching Experience 3</option>\n</select>\n<div id=\"experience1\" style=\"display:none;\">\n  <h2>Teaching Experience 1</h2>\n  <!-- Add details about your teaching experience here -->\n</div>\n<div id=\"experience2\" style=\"display:none;\">\n  <h2>Teaching Experience 2</h2>\n  <!-- Add details about your teaching experience here -->\n</div>\n<div id=\"experience3\" style=\"display:none;\">\n  <h2>Teaching Experience 3</h2>\n  <!-- Add details about your teaching experience here -->\n</div>\n    \n<script>\nfunction displayExperience() {\n  var selectedExperience = document.getElementById(\"teaching-experience\").value;\n  var experiences = [\"experience1\", \"experience2\", \"experience3\"];\n\n  experiences.forEach(function (experience) {\n    var div = document.getElementById(experience);\n    if (experience === selectedExperience) {\n      div.style.display = \"block\";\n    } else {\n      div.style.display = \"none\";\n    }\n  });\n}\n</script>\n```\n\n\n",
+    "supporting": [
+      "teachin1_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
