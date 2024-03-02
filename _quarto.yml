@@ -14,7 +14,7 @@ website:
     site: "@linogaliana"
     card-style: "summary_large_image"
   navbar:
-    background: "#7ebd51"
+    background: "darkgreen"
     foreground: light
     left:
       - href: index.qmd
@@ -26,13 +26,14 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: simplex
     css: styles.css
     toc: true
     toc-depth: 4
     toc-title: "Contents"
     html-math-method: katex
     highlight-style: tango
+    page-layout: full
 
 
 

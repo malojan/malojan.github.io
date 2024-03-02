@@ -1,7 +1,22 @@
 ---
-title: "Welcome to Malo Jan's Academic Page"
+title: "Malo Jan"
+image: Malo_JAN_photo.jpg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/samanthacsik/
+    - text: Twitter
+      href: https://twitter.com/malo_jn
+    - text: GitHub
+      href: https://github.com/malojan
+    - text: Email
+      href: malo.jan@sciencespo.fr
 ---
-
-I am Malo Jan, a Phd Student in political science at Sciences Po (CEE, CNRS). I work on the politicision of climate change in european national parliaments. More broadly I am interested in party politics, legislative behavior and climate politics. I am also very interested in computational social sciences. 
+        
+I am Malo Jan, a Phd Student in political science at Sciences Po (CEE, CNRS). I work on the politicisation of climate change by political parties in Europe. More broadly I am interested in party politics, legislative behavior and climate politics. I am also very interested in computational social sciences. 
 
 {{< fa brands python >}}
